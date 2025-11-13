@@ -1,7 +1,7 @@
 {
-  "buildCommand": "cd apps/client && pnpm install && pnpm run generate",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "cd apps/client && pnpm run generate",
   "outputDirectory": "apps/client/.output/public",
-  "installCommand": "npm install -g pnpm && pnpm install --global",
   "framework": "nuxtjs",
   "env": {
     "NITRO_PRESET": "static"
